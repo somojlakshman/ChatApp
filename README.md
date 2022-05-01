@@ -1,0 +1,1 @@
+Simple chat application built in flutter SDK.
