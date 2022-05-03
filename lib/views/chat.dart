@@ -87,7 +87,7 @@ class _ChatState extends State<Chat> {
                           decoration: InputDecoration(
                               hintText: "Message ...",
                               hintStyle: TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontSize: 16,
                               ),
                               border: InputBorder.none
@@ -166,15 +166,15 @@ class MessageTile extends StatelessWidget {
                 const Color(0xff2A75BC)
               ]
                   : [
-                const Color(0x1AFFFFFF),
-                const Color(0x1AFFFFFF)
+                const Color(0xff007EF4),
+                const Color(0xff2A75BC)
               ],
             )
         ),
         child: Text(message,
             textAlign: TextAlign.start,
             style: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
             fontSize: 16,
             fontFamily: 'OverpassRegular',
             fontWeight: FontWeight.w300)),
